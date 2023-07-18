@@ -1,12 +1,12 @@
-#EC2 Start/Stop Lambda Functions
+# EC2 Start/Stop Lambda Functions
 This project contains AWS Lambda functions to start and stop EC2 instances using AWS Lambda and Auto Scaling capabilities.
 
-##Prerequisites
+## Prerequisites
 1. AWS account with appropriate permissions to create and manage Lambda functions, EC2 instances, and Auto Scaling groups.
 2. AWS CLI installed and configured with your AWS account credentials.
 3. Python 3.7 or above.
 
-##Configuration
+## Configuration
 Before deploying the Lambda functions, make sure to configure the following:
 
 1. Start Instances Lambda Function
@@ -16,7 +16,7 @@ Before deploying the Lambda functions, make sure to configure the following:
  * Set the region where your EC2 instances are located.
  * Set the Auto Scaling group name.
 
-##Deployment
+## Deployment
 1. Create the Lambda functions using the AWS Management Console or AWS CLI with the provided source code.
 
 2. Configure the event triggers for the Lambda functions to specify when they should be invoked. For example, you can use EventBridge rules or CloudWatch Events to trigger the functions at specific times.
@@ -25,5 +25,5 @@ Before deploying the Lambda functions, make sure to configure the following:
 
 4. Monitor the function execution logs in the AWS CloudWatch Logs to ensure they are running successfully and to troubleshoot any issues if needed.
 
-##Customization
+## Customization
 Feel free to customize the Lambda functions based on your specific requirements. You can add additional logic, error handling, or integrate with other AWS services as needed.
