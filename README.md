@@ -54,8 +54,8 @@ This project contains AWS Lambda functions to start and stop EC2 instances using
             "Resource": "*"
         }
     ]
-}```
-
+}
+```
 6. Click "Create function" to create the function.
 
 7. In the function details page, scroll down to the "Function code" section, and copy-paste the code from the file `ec2start.py` in this repository.
